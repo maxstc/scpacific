@@ -1,0 +1,31 @@
+.hero {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero > div > h1 {
+    font-size: 6rem;
+    color: #f5f0eb;
+    text-align: left;
+}
+
+.hero > div > p {
+    font-size: 2rem;
+    color: #f5f0eb;
+    text-align: left;
+}
+
+.hero-subline {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  line-height: 1.5;
+  vertical-align: middle;
+  min-height: 1.5em; /* prevents layout shift between languages */
+}
